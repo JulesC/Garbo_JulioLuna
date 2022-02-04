@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .navbar-logo {
@@ -15,7 +15,20 @@
 }
 
 #logoNav {
-width: 110px;
+    width: 110px;
+}
+
+.fa-shopping-cart{
+    color: #fff;
+    font-size: 20px;
+ }
+
+ .fa-shopping-cart:hover{
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    transition: 250ms;
+    transform: translateY(-7px);  
+    color: #2EE59D;
+   
 }
 
 .nav-menu {
@@ -36,9 +49,9 @@ width: 110px;
 }
 
 .nav-links:hover {
-    background-color: #329fe7;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+   border-radius: 45px;
 }
 
 .fa-bars {
