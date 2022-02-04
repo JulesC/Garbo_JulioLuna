@@ -3,6 +3,7 @@
 }
 
 .btn {
+    margin-left: 70px;
     padding:  8px 20px;
     border-radius: 4px;
     outline: none;
@@ -44,3 +45,15 @@
     font-size: 20px;
     color: #fff;
  }
+
+ .fa-shopping-cart{
+     margin-left: 80px;
+     color: #fff;
+  font-size: 20px;
+ }
+
+ .fa-shopping-cart:hover{
+    transition: all 0.3s ease-out;
+    color: var(--primary);
+    transition: 250ms;
+}

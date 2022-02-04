@@ -29,10 +29,10 @@ class Navbar extends Component {
                         ) 
                     })}                 
                 </ul>               
-                 {/* <div>                   
+                 <div>                   
                     {}                    
                   <i class="fa fa-shopping-cart"></i>               
-                </div>*/}  
+                </div>  
                 <Button onClick={this.saludo}>Sign Up</Button>              
             </nav>              
         )     
