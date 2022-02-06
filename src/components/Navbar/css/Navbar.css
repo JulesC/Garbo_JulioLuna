@@ -18,19 +18,6 @@
     width: 110px;
 }
 
-.fa-shopping-cart{
-    color: #fff;
-    font-size: 20px;
- }
-
- .fa-shopping-cart:hover{
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    transition: 250ms;
-    transform: translateY(-7px);  
-    color: #2EE59D;
-   
-}
-
 .nav-menu {
    display: grid;
    grid-template-columns: repeat(5, auto);
