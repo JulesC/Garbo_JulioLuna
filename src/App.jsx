@@ -4,6 +4,7 @@ import './plugings/sweetalert2.css'
 import Navbar from './components/Navbar/jsx/Navbar'
 import ItemListContainer from './components/Navbar/jsx/ItemListContainer'
 import CartWidget from './components/Cart/jsx/CartWidget'
+import ItemCount from './components/Cart/jsx/ItemCount'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
     <div>
       <i className="fa fa-cog fa-spin" /> 
     </div>  
-
+  
   return (
     <div className="App">
       < Navbar />
@@ -20,6 +21,7 @@ function App() {
 
       <header className="App-header">
         < ItemListContainer Greetings={Subtitulo} />
+        < ItemCount />
       </header >
     </div>
   )

@@ -1,0 +1,36 @@
+:root {
+    --primary: #6568f4;
+}
+
+.Cartdiv button{
+    border-radius: 45px;
+}
+
+.btnCart {
+    margin-top: 30px;
+    margin-left: 30px;
+    padding:  8px 20px;
+    outline: none;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    color: #000; 
+    background: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+    font-weight: 300;
+    width: 300px; 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+.btnCart:hover {
+    padding:  8px 20px;
+    color: #fff;
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    transition: 250ms;
+    transform: translateY(-7px);          
+}
