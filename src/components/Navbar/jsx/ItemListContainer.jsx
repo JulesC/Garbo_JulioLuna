@@ -1,10 +1,24 @@
-import React from "react"
+import React, { useEffect, useState} from 'react'
+import ItemList from '../../Cart/jsx/ItemList'
+import { getProductos } from '../../Cart/jsx/Productos'
 
 const ItemListContainer = (props) => {
-    
+  const [data, setData] = useState([])
+
+  useEffect(() => {
+      getProductos
+       .then((res) => {
+          setData(res)
+      })
+      .catch((error) => {
+          console.error(error)
+      })
+  }, [])
+  console.log(getProductos)
     return (
         <>
-            <h1> GARBO. <h2 className="text"> {props.Greetings}</h2></h1>
+          <h1> GARBO. {props.Greetings}</h1>  
+          <ItemList elementos={getProductos} />
         </>
     )
 }
